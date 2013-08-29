@@ -150,7 +150,7 @@
                 'r': this.idForPosition({'row': pos.row, 'cell': pos.cell + 1}),
                 'bl': this.idForPosition({'row': pos.row + 1, 'cell': pos.cell - 1}),
                 'b': this.idForPosition({'row': pos.row + 1, 'cell': pos.cell}),
-                'br': this.idForPosition({'row': pos.row + 1, 'cell': pos.cell + 1}),
+                'br': this.idForPosition({'row': pos.row + 1, 'cell': pos.cell + 1})
             };
         };
 
