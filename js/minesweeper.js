@@ -23,7 +23,7 @@
         }
 
         MineSweeper.prototype.createBoard = function() {
-            var div, elem, fragment, i, input, j;
+            var div, elem, i, input, j;
             elem = this.getId("board");
             for (i = 1; i <= cells; i++) {
                 div = document.createElement('div');
