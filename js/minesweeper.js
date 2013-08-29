@@ -16,10 +16,28 @@
         revealedCells = 0;
 
         function MineSweeper() {
+            this.createBoard();
             this.initEvents();
             this.generateMines();
             this.generateValues();
         }
+
+        MineSweeper.prototype.createBoard = function() {
+            var div, elem, fragment, i, input, j;
+            elem = this.getId("board");
+            for (i = 1; i <= cells; i++) {
+                div = document.createElement('div');
+                for (j = 1; j <= cells; j++) {
+                    input = document.createElement('input');
+                    input.className = "cell";
+                    input.id = this.idForPosition({'row': i, 'cell': j});
+                    input.setAttribute('data-row', i);
+                    input.setAttribute('data-cell', j);
+                    div.appendChild(input);
+                }
+                elem.appendChild(div);
+            }
+        };
 
         MineSweeper.prototype.gameOver = function() {
             if (!gameOver) {

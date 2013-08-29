@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -13,88 +9,7 @@
     </head>
     <body>
         <h1 id="result">Minesweeper</h1>
-        <section class="board">
-            <div class="row">
-                <input class="cell" data-row="1" data-cell="1" id="row1cell1"/>
-                <input class="cell" data-row="1" data-cell="2" id="row1cell2"/>
-                <input class="cell" data-row="1" data-cell="3" id="row1cell3"/>
-                <input class="cell" data-row="1" data-cell="4" id="row1cell4"/>
-                <input class="cell" data-row="1" data-cell="5" id="row1cell5"/>
-                <input class="cell" data-row="1" data-cell="6" id="row1cell6"/>
-                <input class="cell" data-row="1" data-cell="7" id="row1cell7"/>
-                <input class="cell" data-row="1" data-cell="8" id="row1cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="2" data-cell="1" id="row2cell1"/>
-                <input class="cell" data-row="2" data-cell="2" id="row2cell2"/>
-                <input class="cell" data-row="2" data-cell="3" id="row2cell3"/>
-                <input class="cell" data-row="2" data-cell="4" id="row2cell4"/>
-                <input class="cell" data-row="2" data-cell="5" id="row2cell5"/>
-                <input class="cell" data-row="2" data-cell="6" id="row2cell6"/>
-                <input class="cell" data-row="2" data-cell="7" id="row2cell7"/>
-                <input class="cell" data-row="2" data-cell="8" id="row2cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="3" data-cell="1" id="row3cell1"/>
-                <input class="cell" data-row="3" data-cell="2" id="row3cell2"/>
-                <input class="cell" data-row="3" data-cell="3" id="row3cell3"/>
-                <input class="cell" data-row="3" data-cell="4" id="row3cell4"/>
-                <input class="cell" data-row="3" data-cell="5" id="row3cell5"/>
-                <input class="cell" data-row="3" data-cell="6" id="row3cell6"/>
-                <input class="cell" data-row="3" data-cell="7" id="row3cell7"/>
-                <input class="cell" data-row="3" data-cell="8" id="row3cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="4" data-cell="1" id="row4cell1"/>
-                <input class="cell" data-row="4" data-cell="2" id="row4cell2"/>
-                <input class="cell" data-row="4" data-cell="3" id="row4cell3"/>
-                <input class="cell" data-row="4" data-cell="4" id="row4cell4"/>
-                <input class="cell" data-row="4" data-cell="5" id="row4cell5"/>
-                <input class="cell" data-row="4" data-cell="6" id="row4cell6"/>
-                <input class="cell" data-row="4" data-cell="7" id="row4cell7"/>
-                <input class="cell" data-row="4" data-cell="8" id="row4cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="5" data-cell="1" id="row5cell1"/>
-                <input class="cell" data-row="5" data-cell="2" id="row5cell2"/>
-                <input class="cell" data-row="5" data-cell="3" id="row5cell3"/>
-                <input class="cell" data-row="5" data-cell="4" id="row5cell4"/>
-                <input class="cell" data-row="5" data-cell="5" id="row5cell5"/>
-                <input class="cell" data-row="5" data-cell="6" id="row5cell6"/>
-                <input class="cell" data-row="5" data-cell="7" id="row5cell7"/>
-                <input class="cell" data-row="5" data-cell="8" id="row5cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="6" data-cell="1" id="row6cell1"/>
-                <input class="cell" data-row="6" data-cell="2" id="row6cell2"/>
-                <input class="cell" data-row="6" data-cell="3" id="row6cell3"/>
-                <input class="cell" data-row="6" data-cell="4" id="row6cell4"/>
-                <input class="cell" data-row="6" data-cell="5" id="row6cell5"/>
-                <input class="cell" data-row="6" data-cell="6" id="row6cell6"/>
-                <input class="cell" data-row="6" data-cell="7" id="row6cell7"/>
-                <input class="cell" data-row="6" data-cell="8" id="row6cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="7" data-cell="1" id="row7cell1"/>
-                <input class="cell" data-row="7" data-cell="2" id="row7cell2"/>
-                <input class="cell" data-row="7" data-cell="3" id="row7cell3"/>
-                <input class="cell" data-row="7" data-cell="4" id="row7cell4"/>
-                <input class="cell" data-row="7" data-cell="5" id="row7cell5"/>
-                <input class="cell" data-row="7" data-cell="6" id="row7cell6"/>
-                <input class="cell" data-row="7" data-cell="7" id="row7cell7"/>
-                <input class="cell" data-row="7" data-cell="8" id="row7cell8"/>
-            </div>
-            <div class="row">
-                <input class="cell" data-row="8" data-cell="1" id="row8cell1"/>
-                <input class="cell" data-row="8" data-cell="2" id="row8cell2"/>
-                <input class="cell" data-row="8" data-cell="3" id="row8cell3"/>
-                <input class="cell" data-row="8" data-cell="4" id="row8cell4"/>
-                <input class="cell" data-row="8" data-cell="5" id="row8cell5"/>
-                <input class="cell" data-row="8" data-cell="6" id="row8cell6"/>
-                <input class="cell" data-row="8" data-cell="7" id="row8cell7"/>
-                <input class="cell" data-row="8" data-cell="8" id="row8cell8"/>
-            </div>
-        </section>
+        <section id="board"></section>
         <script type="text/javascript" src="js/minesweeper.js"></script>
     </body>
 </html>
